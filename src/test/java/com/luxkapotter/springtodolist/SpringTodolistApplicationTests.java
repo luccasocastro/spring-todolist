@@ -34,6 +34,14 @@ class SpringTodolistApplicationTests {
 
 	@Test
 	void testCreateTodoFailure() {
+
+		webTestClient
+			.post()
+			.uri("/todos")
+			.bodyValue(
+				new Todo("", "", false, 1)
+			).exchange()
+			.expectStatus().isBadRequest();
 	}
 
 }
