@@ -16,6 +16,8 @@ import org.springframework.web.bind.annotation.RestController;
 import com.luxkapotter.springtodolist.entity.Todo;
 import com.luxkapotter.springtodolist.service.TodoService;
 
+import jakarta.validation.Valid;
+
 @RestController
 @RequestMapping(value = "/todos")
 public class TodoController {
@@ -26,7 +28,7 @@ public class TodoController {
     }
 
     @PostMapping
-    ResponseEntity<List<Todo>> create(@RequestBody Todo todo){
+    ResponseEntity<List<Todo>> create(@Valid @RequestBody Todo todo){
         return ResponseEntity.status(HttpStatus.CREATED)
             .body(todoService.create(todo));
     }
