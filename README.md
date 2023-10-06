@@ -23,6 +23,7 @@ API para gerenciar tarefas (CRUD) com objetivo de implementar boas práticas de 
 - Consultas com Spring Data JPA
 - Injeção de Dependências
 - Tratamento de respostas de erro
+- Testes unitários
 - Geração automática do Swagger com a OpenAPI 3
 
 ## Como Executar
