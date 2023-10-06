@@ -6,7 +6,7 @@
  <img src="https://img.shields.io/static/v1?label=Tipo&message=Desafio&color=8257E5&labelColor=000000" alt="Desafio" />
 </p>
 
-API para gerenciar tarefas (CRUD) que faz parte [desse desafio](https://github.com/simplify-liferay/desafio-junior-backend-simplify) para pessoas desenvolvedoras backend júnior, que se candidatam para a Simplify.
+API para gerenciar tarefas (CRUD) com objetivo de implementar boas práticas de programação com a linguagem Java e o Framework Spring Boot, além da implementação de testes unitários e código limpo.
 
 ## Tecnologias
  
